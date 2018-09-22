@@ -1,6 +1,6 @@
 require_relative 'config/environment'
 
-class App < Sinatra::Base
+class App < ActiveRecord::Base
     GET "/"
     erb :index
 end

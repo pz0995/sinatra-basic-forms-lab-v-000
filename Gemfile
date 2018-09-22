@@ -10,7 +10,7 @@ gem 'sinatra'
     gem 'pry'
     gem 'require_all'
     gem 'activerecord'
-    
+
 group :test do
       gem 'rspec'
       gem 'capybara'

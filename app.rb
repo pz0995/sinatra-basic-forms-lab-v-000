@@ -1,5 +1,5 @@
 require_relative 'config/environment'
-require 'ActiveRecord'
+require 'Active_Record'
 
 
 class App < ActiveRecord::Base
